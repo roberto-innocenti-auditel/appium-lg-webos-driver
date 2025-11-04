@@ -1,6 +1,6 @@
 {
   "name": "appium-lg-webos-driver",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "LG WebOS support for Appium",
   "keywords": [
     "appium",
@@ -60,6 +60,7 @@
     "lodash": "^4.17.21",
     "slugify": "1.6.5",
     "teen_process": "^1.9.0",
+    "ssh2": "^1.11.0",
     "ws": "^8.8.1"
   },
   "devDependencies": {
@@ -73,6 +74,7 @@
     "@types/mocha": "^9.1.1",
     "@types/node": "18.14.6",
     "@types/sinon-chai": "^3.2.8",
+    "@types/ssh2": "^1.11.9",
     "@types/teen_process": "^1.16.1",
     "appium": "2.0.0-beta.56",
     "axios": "^0.27.2",

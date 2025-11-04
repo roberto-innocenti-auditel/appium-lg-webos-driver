@@ -91,3 +91,33 @@ export interface Delta {
   dx: number;
   dy: number;
 }
+
+export interface LGSshClientOpts {
+  host: string;
+  port: number;
+  username: string;
+  privateKey: string;
+}
+
+export interface LunaResponse<T = any> {
+  returnValue: boolean;
+  errorText?: string;
+  errorCode?: number;
+  results?: T;
+}
+
+export interface CaptureOptions {
+  sessionId: string;
+  format?: 'PNG' | 'JPG' | 'BMP' | 'WEBP';
+  width?: number;
+  height?: number;
+}
+
+export interface CaptureAppOptions extends CaptureOptions {
+  appId: string;
+}
+
+export interface UploadOptions {
+  filePath: string;
+  url: string;
+}
